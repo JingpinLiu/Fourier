@@ -12,7 +12,7 @@ This repository showcases my summer research project analyzing zebrafish calcium
 
 ## Repo Structure
 - `docs/` — the GitHub Pages site (edit `docs/index.md` to change the page)
-- `src/` — analysis code (Python)
+- `demo/` — analysis code (Python)
 - `notebooks/` — Jupyter notebooks (exploratory / figures)
 - `figures/` — exported plots used on the page
 - `data/` — small samples or instructions to download data
@@ -26,7 +26,7 @@ This repository showcases my summer research project analyzing zebrafish calcium
    ```
 2. Run the example script to compute Fourier components for a toy trace:
    ```bash
-   python src/example_fft.py
+   python demo/example_fft.py
    ```
 3. Open `notebooks/01_demo.ipynb` to see amplitude/phase extraction workflow.
 
