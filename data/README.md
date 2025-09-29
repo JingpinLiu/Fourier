@@ -1,3 +1,7 @@
-# Data notes
-- Place small sample data here (under 100 MB total).
-- For large/open datasets, add download instructions or a script instead of committing the data.
+**Notebook for Example Data**
+
+- The data used for this project comes from a public neuron-imaging dataset for zebrafish. This dataset was used in the paper titled "Brain-wide Organization of Neuronal Activity and Convergent Sensorimotor Transformations in Larval Zebrafish<sup>1</sup>" [(Neuron 2018)](https://www.cell.com/neuron/pdf/S0896-6273%2818%2930844-4.pdf). The data consists of recordings of whole-brain recordings from larval zebrafish, fictively behaving in a virtual environment, imaged using a light-sheet microscope. The data is available for download on [FigShare](https://doi.org/10.25378/janelia.7272617).
+
+&nbsp;
+
+- Brain-wide Organization of Neuronal Activity and Convergent Sensorimotor Transformations in Larval Zebrafish. Xiuye Chen\*, Yu Mu\*, Yu Hu\*, Aaron T. Kuan\*, Maxim Nikitchenko, Owen Randlett, Alex B. Chen, Jeffery P. Gavornik, Haim Sompolinsky, Florian Engert, and Misha B. Ahrens (\*: equal contributions). Neuron, 2018. DOI: <https://doi.org/10.1016/j.neuron.2018.09.042>
