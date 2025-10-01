@@ -31,7 +31,7 @@ This repository showcases my summer research project analyzing zebrafish calcium
 3. Open `notebooks/01_demo.ipynb` to see amplitude/phase extraction workflow.
 
 ## Citation
-If you use or discuss this work, please cite the repository and (optionally) the manuscript on the project page.
+If you use or discuss this work, please cite the repository.
 
 ## License
 - Code: MIT (see `LICENSE`).
