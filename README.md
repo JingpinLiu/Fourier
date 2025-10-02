@@ -1,4 +1,5 @@
-# **IN PROGRESS** Fourier-Transform Decoding of Periodic Neural Dynamics (Project Page)
+# **PROJECT IS STILL IN PROGRESS** 
+# Fourier-Transform Decoding of Periodic Neural Dynamics (Project Page)
 
 This repository showcases my summer research project analyzing zebrafish calcium imaging with a Fourier-based pipeline to detect stimulus-locked neurons under periodic perturbations.
 
