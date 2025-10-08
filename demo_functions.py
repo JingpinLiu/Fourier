@@ -40,7 +40,7 @@ def check_wavelength(signal: np.ndarray, n: int = -1) -> list:
         n = len(signal)
     return [int(x) for x in 1/check_frequency(signal, n)]
 
-def check_magnitude(signal: np.ndarray,n: int = -1) -> list:
+def check_amplitude(signal: np.ndarray,n: int = -1) -> list:
     if n == -1:
         n = len(signal)
     N = len(signal)
