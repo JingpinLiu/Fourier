@@ -18,19 +18,6 @@ This repository showcases my summer research project analyzing zebrafish calcium
 - `figures/` — exported plots used on the page
 - `data/` — small samples or instructions to download data
 
-## Quickstart
-1. Create a Python env and install dependencies:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-2. Run the example script to compute Fourier components for a toy trace:
-   ```bash
-   python demo/example_fft.py
-   ```
-3. Open `notebooks/01_demo.ipynb` to see amplitude/phase extraction workflow.
-
 ## Citation
 If you use or discuss this work, please cite the repository.
 
