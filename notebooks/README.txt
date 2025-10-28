@@ -1,2 +1,3 @@
-# This is a placeholder. Create `01_demo.ipynb` via Jupyter to demonstrate the workflow
-# (loading traces, computing FFT, selecting amplitude/phase at the stimulus frequency).
+Notebook section are still in progress
+# The Fourier_analysis_Demo notebook includes basic functionality for analysis carried out in the manuscript （\docs\assets)
+
