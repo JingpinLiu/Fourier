@@ -3,7 +3,6 @@
 
 This repository showcases my summer research project analyzing zebrafish calcium imaging with a Fourier-based pipeline to detect stimulus-locked neurons under periodic perturbations.
 
-**Live Project Page:** (will appear after enabling GitHub Pages)  
 **Manuscript PDF:** See the project page or `docs/assets/manuscript.pdf`
 
 ## Highlights
