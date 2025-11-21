@@ -5,6 +5,11 @@ This repository showcases my summer research project analyzing zebrafish calcium
 
 **Manuscript PDF:** See the project page or `docs/assets/manuscript.pdf`
 
+## Quick Start
+- Open the notebooks/Fourier_Analysis_Demo.ipynb
+- Follow the instructions in the analysis to replicate analysis pipeline
+- Read the explaination section for the rationale behind the analysis
+
 ## Highlights
 - Fourier pipeline extracts amplitude & phase at the known stimulus frequency.
 - Captures transient onset/offset responses that regression may miss.
