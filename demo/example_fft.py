@@ -1,6 +1,12 @@
+from pathlib import Path
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import rfft, rfftfreq
+
+# Save output images next to this script's project, in images/
+OUT_DIR = Path(__file__).resolve().parent.parent / "images"
+OUT_DIR.mkdir(exist_ok=True)
 
 # Toy signal: periodic stimulus at 0.2 Hz with phase shift
 fs = 2.0  # Hz sampling
@@ -28,10 +34,10 @@ plt.figure()
 plt.plot(t, signal)
 plt.xlabel("Time (s)"); plt.ylabel("a.u."); plt.title("Toy signal")
 plt.tight_layout()
-plt.savefig("figures/toy_signal.png", dpi=150)
+plt.savefig(OUT_DIR / "toy_signal.png", dpi=150)
 
 plt.figure()
 plt.plot(xf, amp_spec)
 plt.xlabel("Frequency (Hz)"); plt.ylabel("Amplitude"); plt.title("Amplitude spectrum")
 plt.tight_layout()
-plt.savefig("figures/amp_spectrum.png", dpi=150)
+plt.savefig(OUT_DIR / "amp_spectrum.png", dpi=150)

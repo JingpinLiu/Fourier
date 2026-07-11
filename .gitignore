@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data file, downloaded automatically by Fourier_Analysis_Demo.ipynb
+data/CellRespZ.h5
+
+# Optional output of demo/multi_fish_accuracy.py and demo/run_fish6_pipeline.py
+/results/
+
+# Scratch/build scripts (e.g. one-off notebook-editing helpers) should never be committed
+notebooks/_*.py
+
+# OS junk files
+.DS_Store
+Thumbs.db

@@ -50,3 +50,18 @@ def check_amplitude(signal: np.ndarray,n: int = -1) -> list:
     if len(peak_indices) < n:
         n=len(peak_indices)
     return (np.flip(abs_result[peak_indices][np.argsort(abs_result[peak_indices])])*(2/N))[0:n]
+
+def find_interval(signal: list) -> list:
+    """Return the [start, end] frame indices of the single contiguous block where a
+    boxcar (0/1) signal is active (equal to 1)."""
+    output = []
+    length = len(signal) - 1
+    for i in range(length):
+        curr, nxt = signal[i], signal[i + 1]
+        if curr == 0 and nxt == 1:
+            output.append(i + 1)
+        elif curr == 1 and nxt == 0:
+            output.append(i)
+        elif i == length - 1 and nxt == 1:
+            output.append(i + 1)
+    return output
